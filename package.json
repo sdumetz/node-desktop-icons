@@ -1,0 +1,26 @@
+{
+  "name": "desktop-icons",
+  "version": "0.0.0",
+  "description": "icons theme specification implementation in native javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdumetz/node-desktop-icons.git"
+  },
+  "keywords": [
+    "xdg",
+    "freedesktop",
+    "icon",
+    "desktop",
+    "theme"
+  ],
+  "author": "Sebastien Dumetz <s.dumetz@holusion.com> (https://github.com/klepthys)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sdumetz/node-desktop-icons/issues"
+  },
+  "homepage": "https://github.com/sdumetz/node-desktop-icons#readme"
+}
