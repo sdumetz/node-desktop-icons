@@ -2,7 +2,7 @@
   "name": "desktop-icons",
   "version": "0.0.0",
   "description": "icons theme specification implementation in native javascript",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/sdumetz/node-desktop-icons/issues"
   },
-  "homepage": "https://github.com/sdumetz/node-desktop-icons#readme"
+  "homepage": "https://github.com/sdumetz/node-desktop-icons#readme",
+  "dependencies": {
+    "xdg-basedir": "^2.0.0"
+  }
 }
