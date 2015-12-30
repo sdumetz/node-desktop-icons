@@ -1,9 +1,8 @@
 var Themes = require("../lib");
-
 describe("Themes",function(){
   var themes;
   before(function(){
-    themes = new Themes([__dirname+"/fixtures"]);
+    themes = new Themes([__dirname+"/fixtures","/my/imaginary/path"]);
   })
   it("list() : array of themes",function(done){
     themes.list(function(err,r){
