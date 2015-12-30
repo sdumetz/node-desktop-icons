@@ -1,6 +1,6 @@
 {
   "name": "desktop-icons",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "icons theme specification implementation in native javascript",
   "main": "lib/index.js",
   "scripts": {
